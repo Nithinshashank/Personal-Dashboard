@@ -23,7 +23,7 @@ Designed to be mobile-friendly and easy to modify, it's perfect for developers, 
 ✔ Font Awesome Icons – Professional-looking social and section icons
 
 🛠 Tech Stack
-Frontend: HTML5, CSS3, JavaScript (No jQuery/React)
+Frontend: HTML5, CSS3, JavaScript 
 
 Styling: Custom CSS (No Bootstrap/Tailwind)
 
@@ -40,11 +40,11 @@ Edit data.js – Add your personal info, skills, and projects
 
 Customize styling – Modify styles.css as needed
 
-Deploy – Host on GitHub Pages, Netlify, or Vercel
+Deploy – Host on  Vercel
 
 
 🔗 Live Demo
-👉 View Demo
+👉 https://personal-dashboard-henna.vercel.app/
 
 💡 Why Use This?
 Perfect for portfolios – Highlights your skills and projects effectively
