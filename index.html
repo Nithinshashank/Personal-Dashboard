@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>My Dashboard</h1>
+            <nav class="nav">
+                <button class="nav-btn active" data-section="profile">Profile</button>
+                <button class="nav-btn" data-section="academics">Academics</button>
+                <button class="nav-btn" data-section="skills">Skills</button>
+                <button class="nav-btn" data-section="extras">Extras</button>
+            </nav>
+        </header>
+
+        <main class="main-content">
+            <!-- Profile Section -->
+            <section id="profile" class="dashboard-section active">
+                <div class="profile-card">
+                    <div class="profile-img-container">
+                        <img src="profile.JPG" alt="Profile Photo" class="profile-img">
+                    </div>
+                    <div class="profile-info">
+                        <h2 id="profile-name">Nithin Shashank</h2>
+                        <h3 id="profile-title">Full Stack Developer</h3>
+                        <p id="profile-bio">Passionate about creating responsive and accessible web applications. Currently focused on mastering JavaScript frameworks and cloud technologies.</p>
+                        <div class="contact-info">
+                            <p><i class="fas fa-envelope"></i> <span id="profile-email">nithinshashank321@gmail.com</span></p>
+                            <p><i class="fas fa-phone"></i> <span id="profile-phone">+91 9505482976</span></p>
+                            <p><i class="fas fa-map-marker-alt"></i> <span id="profile-location">Hyderabad, Telangana</span></p>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://github.com/Nithinshashank" class="social-link"><i class="fab fa-github"></i></a>
+                            <a href="www.linkedin.com/in/nithin-shashank-2338b5278" class="social-link" target="_blank">
+    <i class="fab fa-linkedin"></i>
+</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Academics Section -->
+            <section id="academics" class="dashboard-section">
+                <h2>Education & Experience</h2>
+                <div class="timeline" id="education-timeline">
+                    <!-- Filled by JavaScript -->
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section id="skills" class="dashboard-section">
+                <h2>Skills & Technologies</h2>
+                <div class="skills-container" id="skills-container">
+                    <!-- Filled by JavaScript -->
+                </div>
+            </section>
+
+            <!-- Extras Section -->
+            <section id="extras" class="dashboard-section">
+                <div class="extras-grid">
+                    <div class="extra-card">
+                        <h3><i class="fas fa-trophy"></i> Certifications</h3>
+                        <ul id="certifications-list">
+                            <!-- Filled by JavaScript -->
+                        </ul>
+                    </div>
+                    <div class="extra-card">
+                        <h3><i class="fas fa-heart"></i> Interests</h3>
+                        <ul id="Interests-list">
+                            <!-- Filled by JavaScript -->
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; <span id="current-year"></span> My Personal Dashboard. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
